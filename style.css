@@ -2,28 +2,27 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 #HeaderDiv {
     background-color: blue;
     
 }
+
 #HeaderText {
     color: white;
     text-align: center;
     margin-top:0 ;
-    
 }
-#ToDoList {
-    color: black;
-    text-align: right;
-}
-#Add {
-    color: brown;
-    background-color: rgb(182, 176, 176);
-    text-align: center;
-    width: auto;
-    height: 100px;
 
+.lists {
+    text-align: center;
+    
+} h1 {
+    color: brown;
 }
-body {
-    margin: 0;
-}
+
+
+
