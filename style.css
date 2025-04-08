@@ -8,21 +8,38 @@ body {
 
 #HeaderDiv {
     background-color: blue;
-    
+    height: 100px;
 }
 
 #HeaderText {
     color: white;
     text-align: center;
-    margin-top:0 ;
+    margin: 0;
+    padding-top: 20px;
 }
 
 .lists {
     text-align: center;
-    
-} h1 {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 10px;
+} 
+
+
+.lists .listheader {
     color: brown;
+    font-size: 80;
 }
 
 
 
+ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+li {
+    padding-bottom: 10px;
+    padding-right: 40px;
+}
